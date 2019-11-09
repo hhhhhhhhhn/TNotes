@@ -3,7 +3,9 @@ Program for quick terminal-based notes.
 
 ## Usage
 
-After installing create/choose a note with `$ tnotes note [note name]` (default is firstnote, and folders are accepted).
+After installing with `$ pip install t-notes` create/choose a note with `$ tnotes note [note name]` (default is firstnote, and folders are accepted).
+
+To see the current note, `$ tnotes current`
 
 To create a note entry, simply `$ t [your note]`
 

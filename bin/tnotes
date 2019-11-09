@@ -10,5 +10,7 @@ try:
         tnotes.edit_config({sys.argv[2]: sys.argv[3]})
     elif sys.argv[1] == "save":
         tnotes.save(sys.argv[2])
+    elif sys.argv[1] == "current":
+        print(tnotes.get_config("note"))
 except IndexError:
     print("Not enough arguments")

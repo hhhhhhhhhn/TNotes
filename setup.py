@@ -6,8 +6,8 @@ def readme():
         return f.read()
 
 
-setup(name='tnotes',
-      version='0.0.1',
+setup(name='t-notes',
+      version='0.1.0',
       description='Program for quick terminal-based notes',
       long_description=readme(),
       long_description_content_type='text/markdown',

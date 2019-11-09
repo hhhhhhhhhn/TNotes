@@ -76,3 +76,10 @@ def save(file):
         with open(file, "w+") as f:
             f.write(text)
         return
+
+
+def get_config(conf=None):
+    if conf == None:
+        return config
+    else:
+        return config[conf]
